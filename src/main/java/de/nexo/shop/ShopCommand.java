@@ -11,7 +11,6 @@ import org.jetbrains.annotations.NotNull;
 
 public class ShopCommand implements CommandExecutor
 {
-
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args)
     {
@@ -19,6 +18,8 @@ public class ShopCommand implements CommandExecutor
         {
             return true;
         }
+
+        // Test
 
         PlayerInventory playerInventory = player.getInventory();
         Block block = player.getTargetBlock(null, 10);
