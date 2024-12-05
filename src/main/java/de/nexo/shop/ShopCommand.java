@@ -19,7 +19,7 @@ public class ShopCommand implements CommandExecutor
             return true;
         }
 
-        // Test
+        // Test 123
 
         PlayerInventory playerInventory = player.getInventory();
         Block block = player.getTargetBlock(null, 10);
